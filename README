@@ -1,0 +1,35 @@
+Last updated July 22, 2012
+
+These files have been written during my work at Sage Bionetworks and used for
+file processing and data analysis.
+
+List of scripts:
+
+BasicSVD.R
+BatchTraitsCorrelation.R
+BatchTraitsCorrelation_short.R
+chisqTest_testLevels.R
+combineGEOrawFiles.R
+combineTCGALevel3data.R
+createShortID.R
+factorConcat.R
+FtestPermut.R
+gunzipLoop.R
+Illumina450kTargetsDensity.R
+kMeansEvaluation.R
+MakesMethyLumiRobject_GBM.R
+MakesMethyLumiRobject.R
+mostVariableCpGsPerGene.R
+multipleMatch.R
+PCtechCorrelations.R
+README
+selectCpgWithMaxSD_perGene.R
+selectMostVarCpGs.R
+SurvivalBasicAnalysis.R
+TCGAcollectMethPvalue.R
+
+Each script is pretty well commented and explains what it does. Many of the
+scripts were created to deal with TCGA DNA methylation data, such as unpacking
+it, generating a single matrix from multiple Level1 files, creating short
+patient IDs from aliquot IDs, correlating batch with the clinical variables
+etc. 
